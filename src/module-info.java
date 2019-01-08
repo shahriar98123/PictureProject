@@ -6,4 +6,5 @@
  *
  */
 module PictureProject {
+	requires javafx.graphics;
 }

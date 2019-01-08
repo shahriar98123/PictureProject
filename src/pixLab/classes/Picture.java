@@ -7,6 +7,8 @@ import java.text.*;
 import java.util.*;
 import java.util.List; // resolves problem with java.awt.List and java.util.List
 
+import com.sun.prism.paint.Color;
+
 /**
  * A class that represents a picture.  This class inherits from 
  * SimplePicture and allows the student to add functionality to
@@ -65,7 +67,7 @@ public class Picture extends SimplePicture
    * Constructor that takes a buffered image
    * @param image the buffered image to use
    */
-  public Picture(BufferedImage image)
+  public Picture(BufferedTime image)
   {
     super(image);
   }
@@ -134,6 +136,7 @@ public class Picture extends SimplePicture
       }
     } 
   }
+ 
   
   /** Mirror just part of a picture of a temple */
   public void mirrorTemple()
